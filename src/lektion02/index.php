@@ -19,5 +19,28 @@
     ?>
     <?= 'Detta är också en text från php'?> 
     </p>
+
+
+    <h2>Datatyper och Variabler</h2>
+    <ul>
+        <?php
+        $string = 'Detta är en string';
+        $integer = 10;
+        $float = 3.14;
+        $boolean = true;
+
+        echo '<li> Ett exempel på en string:' . $string . '</li>';
+        echo '<li> Ett exempel på en integer:' . $integer . '</li>';
+        echo '<li> Ett exempel på en flyttal:' . $float . '</li>';
+        echo '<li> Ett exempel på en boolean:' . $boolean . '</li>';
+        ?>
+    </ul>
+    <?php
+    // skillnad på " eller ' ?
+    echo "sträng som har en variabel i sig ($integer)<br>"
+
+    $x = 5;
+    echo "X ($x) är :" . gettype($x) . "<br>";
+    ?>
 </body>
 </html>
