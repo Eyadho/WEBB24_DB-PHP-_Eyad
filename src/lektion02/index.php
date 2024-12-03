@@ -40,7 +40,7 @@
     echo "sträng som har en variabel i sig ($integer)<br>"
 
     $x = 5;
-    echo "X ($x) är :" . gettype($x) . "<br>";
+    echo "X ($x) är :"   . gettype($x) . "<br>";
     ?>
 </body>
 </html>
