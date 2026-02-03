@@ -10,9 +10,8 @@
 
     <?
     // Vår första kod i PHP
-    echo 'Hello, World';
+    echo 'Hello,  World!';
     ?>
-
     ____________________
 
 <?php

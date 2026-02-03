@@ -6,7 +6,7 @@
     <title>Lektion03 - Kontrollstrukturer, Funktioner , objekt och klass</title>
 </head>
 <body>
-    <h1>Lektion03 - Kontrollstrukturer, Funktioner , objekt och klass</h1>;
+    <h1>Lektion03 - Kontrollstrukturer, Funktioner , objekt och klass</h1>
     <h3>If, else, if-else satser</h3>
 
 
