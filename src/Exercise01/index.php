@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lektion 1 - Hello World</title>
 </head>
-<body>
+<body>  
     <h1>Lektion 1 - Hello World</h1>
 
     <?
-    // Vår första kod i PHP
     echo 'Hello,  World!!!!!! ';
     ?>
     ____________________
@@ -17,6 +16,7 @@
 <?php
 $tal1 = 234;
 $tal2 = 923;
+$tal3 = 2;
 
 $produkt = $tal1 * $tal2;
 

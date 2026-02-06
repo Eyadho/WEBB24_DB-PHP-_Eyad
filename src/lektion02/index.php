@@ -29,7 +29,7 @@
         $float = 3.14;
         $boolean = true;
 
-        echo '<li> Ett exempel på en string:' . $string . '</li>';
+        echo '<li> Ett exempel på en string:'  . $string . '</li>';
         echo '<li> Ett exempel på en integer:' . $integer . '</li>';
         echo '<li> Ett exempel på en flyttal:' . $float . '</li>';
         echo '<li> Ett exempel på en boolean:' . $boolean . '</li>';

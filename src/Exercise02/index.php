@@ -15,10 +15,10 @@
     $size1 = 5.6;
     $size2 = 4.6;
     // 2
-    echo $name ;
-    echo $age;
-    echo $color;
-    echo $size1;
+    echo $name ."<br>"; 
+    echo $age ."<br>"; 
+    echo $color ."<br>"; 
+    echo $size1 ."<br>"; 
     echo $size2 . "<br>"; 
     echo "------------------------------------------------------------------------------------------" . "<br>";
     // 3
