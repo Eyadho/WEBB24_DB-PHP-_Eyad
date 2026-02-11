@@ -8,7 +8,7 @@ VALUES ('Ahmad', 'ahmad@test.com')
 ";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record inserted";
+    echo "New record inserted"; 
 } else {
     echo "Error: " . $conn->error;
 }
