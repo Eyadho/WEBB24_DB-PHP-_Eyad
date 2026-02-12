@@ -1,11 +1,9 @@
 <?php
 session_start();
 
-// بيانات تسجيل الدخول (ثابتة)
 $correct_username = "admin";
 $correct_password = "1234";
 
-// إذا تم إرسال نموذج تسجيل الدخول
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -17,10 +15,10 @@ if (isset($_POST['login'])) {
     }
 }
 
-// تسجيل الخروج
+// log out
 if (isset($_POST['logout'])) {
-    session_unset();     // مسح متغيرات session
-    session_destroy();   // تدمير session
+    session_unset();     // clear session
+    session_destroy();   // destroy session
 }
 ?>
 <!DOCTYPE html>
