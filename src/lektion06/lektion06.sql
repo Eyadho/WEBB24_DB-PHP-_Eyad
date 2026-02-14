@@ -5,7 +5,7 @@ CREATE DATABASE PaperPlanes;
 USE PaperPlanes;
 
 CREATE TABLE Contacts (
-	id INT PRIMARY KEY AUTO_INCREMENT, 			-- PRIMARY KEY innebär bla att fältet är NOT NULL
+	id INT PRIMARY KEY AUTO_INCREMENT, 		-- PRIMARY KEY innebär bla att fältet är NOT NULL
 	name VARCHAR(200) NOT NULL,
 	birthday DATE NULL, 
 	noOfCars INT NOT NULL DEFAULT 0,
