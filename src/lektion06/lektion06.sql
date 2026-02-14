@@ -27,7 +27,7 @@ INSERT INTO Contacts (
 	newsletter
 ) VALUE (
 	'Kalle Anka',
-	'1992-08-29',
+	'1992-08-28',
 	'Ja'
 );
 
