@@ -13,7 +13,7 @@ CREATE TABLE Contacts (
 );
 
 SHOW TABLES;				-- Visa alla tabeller
-DESCRIBE Contacts;		-- Beskriv hur Contacts ser ut
+DESCRIBE Contacts;			-- Beskriv hur Contacts ser ut
 
 INSERT INTO Contacts (
 	name
