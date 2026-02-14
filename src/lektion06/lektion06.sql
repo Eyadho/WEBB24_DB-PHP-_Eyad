@@ -12,7 +12,7 @@ CREATE TABLE Contacts (
 	newsletter ENUM('Ja', 'Nej') NOT NULL DEFAULT 'Nej'
 );
 
-SHOW TABLES;			-- Visa alla tabeller
+SHOW TABLES;				-- Visa alla tabeller
 DESCRIBE Contacts;		-- Beskriv hur Contacts ser ut
 
 INSERT INTO Contacts (
